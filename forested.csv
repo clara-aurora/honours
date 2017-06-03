@@ -1,0 +1,31 @@
+Region,Basin,Station,Landuse,Size,ID,Lat,Long
+ACT,Murrumbidgee River,Cotter River at Gingera,Forested,130,410730,-35.5917,148.8217
+NSW,Bega River,Rutherford Creek at Brown Mountain,Forested,14.4,219001,-36.594,149.4427
+NSW,Shoalhaven River,Corang River at Hockeys,Forested,165.6,215004,-35.1473,150.0331
+QLD,Herbert River,Blencoe Creek at Blencoe Falls,Forested,223.7,116010A,-18.2042,145.5371
+QLD,Tully-Murray Rivers,Cochable Creek at Powerline,Forested,95.5,113004A,-17.7396,145.6301
+QLD,Archer-Watson Rivers,Coen River at Racecourse,Forested,170,922101B,-13.9551,143.1747
+SA,Onkaparinga River,Scott Creek at Scott Bottom,Forested,29,A5030502,-35.1013,138.673
+SA,Torrens River,First Creek at Waterfall Gully,Forested,5.3,A5040517,-34.9703,138.6813
+SA,Torrens River,Sixth Creek at Castambul,Forested - quarry?,47.7,A5040523,-34.8717,138.7542
+TAS,Arthur River,Hellyer River at Guilford Junction,Forested,100.8,312061,-41.4183,145.675
+TAS,East Coast,Ansons River at Downstream of Big Boggy Creek,Forested,229.9,302214,-41.048,148.217
+TAS,Derwent River,Tyenna River at Newbury,Forested,210.2,304499,-42.7083,146.7083
+TAS,Derwent River,Nive River at Gowan Brae,Forested,174,304497,-42.031,146.4183
+VIC,East Gippsland,Errinundra River at Errinundra,Forested,159.2,221207,-37.4507,148.9129
+VIC,Goulburn,Murrindindi River at Murrindindi Above Colwells,Forested,105.8,405205,-37.4137,145.564
+VIC,Yarra River,Walshes Creek at RD1,Forested,54.5,229661A,-37.6337,145.9268
+VIC,Yarra River,Aldermans Creek at RD32,Forested,23.9,229650A,-37.724,145.9453
+VIC,Mitchell-Thomson Rivers,South Cascade Creek at Thomson Valley Road,Forested,9.6,225020A,-37.8333,146.3547
+VIC,Mitchell-Thomson Rivers,Jordan River at D/S Johnsons Creek,Forested,132.1,225110A,-37.6838,146.3185
+VIC,Mitchell-Thomson Rivers,Latrobe River at Near Noojee,Forested,65.3,226222,-37.8822,145.893
+VIC,South Gippsland,Tarra River at Fischers,Forested - next to plantation,20.7,227225A,-38.4695,146.5551
+VIC,Werribee River,Lerderberg River at Sardine Creek O'brien,Forested,152.1,231213,-37.4964,144.361
+VIC,Otway Coast,Arkins Creek West Branch at Wyelangta,Forested,4.5,235205,-38.6456,143.444
+VIC,Glenelg River,Jimmy Creek at Jimmy Creek,Forested,23.3,238208,-37.3744,142.5071
+NT,Wildman River ,West Alligator River at Upstream Arnhem Highway,Forested,245.8,G8190001,-12.7921,132.1749
+WA,Franklin-Deep Rivers,Weld River at Wattle Block,Forested,73.1,606002,-34.69,116.52
+WA,Donally River,Carey Brook at Staircase Road,Forested,48.3,608002,-34.39,115.84
+WA,Brusselton Coast,Margaret River North at Whicher Range,Forested,14.1,610008,-33.8066,115.4436
+WA,Murray River (WA),Harvey River at Dingo Road,Forested - next to vineyards,148,613002,-33.0871,116.0389
+WA,Murray River (WA),Yarragil Brook at Yarragil Formation,Forested - next to gold mine,80,614044,-32.8114,116.1551

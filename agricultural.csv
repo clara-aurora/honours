@@ -1,0 +1,17 @@
+Region,Basin,Station,Landuse,Size,ID,Long,Lat
+NSW,Murrumbidgee River,Adelong Creek at Batlow Road,Agricultural,146.1,410061,148.0685,-35.3323
+NSW,Upper Murray,Maragle Creek at Maragle,Agricultural,217.3,401009,148.0999,-35.9256
+NSW,Hunter River,William River at Tillegra,Agricultural,196.4,210011,151.6873,-32.3187
+NSW,Manning River,Nowendoc River at Nowendoc,Agricultural,221.1,208007,151.7158,-31.5167
+QLD,Barwon-Condamine-Culgoa Rivers,Emu Creek at Emu Vale,Agricultural,153.1,422313B,152.2272,-28.2289
+QLD,Brisbane River,Bremer River at Adams Bridge,Agricultural,126.5,143110A,152.5116,-27.8277
+SA,Gawler River,North Para River at Penrice,"Agricultural - quarry, town",120.5,A5050517,139.0584,-34.4632
+VIC,Kiewa River,Kinchington Creek at Osbornes Flat,"Agricultural, town",123.8,402213,146.885,-36.3267
+VIC,Ovens River,Boggy Creek at Angleside,Agricultural,108.4,403226,146.3625,-36.6063
+VIC,Ovens River,Happy Valley Creek at Rosewhite,Agricultural,138,403214,146.8201,-36.5775
+VIC,Goulburn,Home Creek at Yarck,Agricultural,186.7,405274,145.6051,-37.106
+VIC,Goulburn,Mollison Creek at Pyalong,Agricultural - gauge at town,164.1,405238,144.8573,-37.1203
+VIC,South Gippsland,Wilkur Creek at Leongatha,Agricultural,105.8,227227,145.9574,-38.3929
+VIC,South Gippsland,Tarwin River East Branch at Dumbalk North,Agricultural,129.7,227226,146.161,-38.4996
+VIC,Campaspe River,Mount Pleasant Creek at Runnymede,Agricultural,246.3,406224,144.6377,-36.5457
+VIC,Avon,Richarson River at Carrs Plains,Agricultural,124.9,415226,142.7869,-36.7416
