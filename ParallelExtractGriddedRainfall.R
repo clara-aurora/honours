@@ -13,7 +13,7 @@ decades <- dir("Daily-rainfall", pattern="rainfall_")
 Store <- list()
 
 # Some test stations
-stations <- read.csv("C:\\Users\\Clara\\Documents\\honours\\agricultural.csv")# should be in decimal degrees and long first and then lat
+stations <- read.csv("C:\\Users\\cdac8824\\Documents\\honours\\allstations.csv")# should be in decimal degrees and long first and then lat
 points <- stations
 
 library(doSNOW)
@@ -31,7 +31,7 @@ Store<- foreach(i=8:9, #folders with decades required
     # read the grids
     files= list.files(paste("Daily-rainfall/",decades[i],"/",Years[j],sep=""),pattern=".txt", full.names=TRUE)
     # stack the grids
-    s <- stack(files[1]) #TAKES AGES ON MY LAPTOP
+    s <- stack(files) #TAKES AGES ON MY LAPTOP
     # extract the stations
     df <- extract(s, SpatialPoints(points[,c("Long", "Lat")],
               proj4string=CRS("+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs")), 
@@ -43,7 +43,7 @@ Store<- foreach(i=8:9, #folders with decades required
 }
 stopCluster(cl)
 
-
+#TESTED UP TO HERE#
 
 output1 <- list()
 # otherwise

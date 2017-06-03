@@ -1,0 +1,79 @@
+Region,Basin,Station,Landuse,Size,ID,Long,Lat
+NSW,Murrumbidgee River,Adelong Creek at Batlow Road,Agricultural,146.1,410061,148.0685,-35.3323
+NSW,Upper Murray,Maragle Creek at Maragle,Agricultural,217.3,401009,148.0999,-35.9256
+NSW,Hunter River,William River at Tillegra,Agricultural,196.4,210011,151.6873,-32.3187
+NSW,Manning River,Nowendoc River at Nowendoc,Agricultural,221.1,208007,151.7158,-31.5167
+QLD,Barwon-Condamine-Culgoa Rivers,Emu Creek at Emu Vale,Agricultural,153.1,422313B,152.2272,-28.2289
+QLD,Brisbane River,Bremer River at Adams Bridge,Agricultural,126.5,143110A,152.5116,-27.8277
+SA,Gawler River,North Para River at Penrice,"Agricultural - quarry, town",120.5,A5050517,139.0584,-34.4632
+VIC,Kiewa River,Kinchington Creek at Osbornes Flat,"Agricultural, town",123.8,402213,146.885,-36.3267
+VIC,Ovens River,Boggy Creek at Angleside,Agricultural,108.4,403226,146.3625,-36.6063
+VIC,Ovens River,Happy Valley Creek at Rosewhite,Agricultural,138,403214,146.8201,-36.5775
+VIC,Goulburn,Home Creek at Yarck,Agricultural,186.7,405274,145.6051,-37.106
+VIC,Goulburn,Mollison Creek at Pyalong,Agricultural - gauge at town,164.1,405238,144.8573,-37.1203
+VIC,South Gippsland,Wilkur Creek at Leongatha,Agricultural,105.8,227227,145.9574,-38.3929
+VIC,South Gippsland,Tarwin River East Branch at Dumbalk North,Agricultural,129.7,227226,146.161,-38.4996
+VIC,Campaspe River,Mount Pleasant Creek at Runnymede,Agricultural,246.3,406224,144.6377,-36.5457
+VIC,Avon,Richarson River at Carrs Plains,Agricultural,124.9,415226,142.7869,-36.7416
+ACT,Murrumbidgee River,Cotter River at Gingera,Forested,130,410730,148.8217,-35.5917
+NSW,Bega River,Rutherford Creek at Brown Mountain,Forested,14.4,219001,149.4427,-36.594
+NSW,Shoalhaven River,Corang River at Hockeys,Forested,165.6,215004,150.0331,-35.1473
+QLD,Herbert River,Blencoe Creek at Blencoe Falls,Forested,223.7,116010A,145.5371,-18.2042
+QLD,Tully-Murray Rivers,Cochable Creek at Powerline,Forested,95.5,113004A,145.6301,-17.7396
+QLD,Archer-Watson Rivers,Coen River at Racecourse,Forested,170,922101B,143.1747,-13.9551
+SA,Onkaparinga River,Scott Creek at Scott Bottom,Forested,29,A5030502,138.673,-35.1013
+SA,Torrens River,First Creek at Waterfall Gully,Forested,5.3,A5040517,138.6813,-34.9703
+SA,Torrens River,Sixth Creek at Castambul,Forested - quarry?,47.7,A5040523,138.7542,-34.8717
+TAS,Arthur River,Hellyer River at Guilford Junction,Forested,100.8,312061,145.675,-41.4183
+TAS,East Coast,Ansons River at Downstream of Big Boggy Creek,Forested,229.9,302214,148.217,-41.048
+TAS,Derwent River,Tyenna River at Newbury,Forested,210.2,304499,146.7083,-42.7083
+TAS,Derwent River,Nive River at Gowan Brae,Forested,174,304497,146.4183,-42.031
+VIC,East Gippsland,Errinundra River at Errinundra,Forested,159.2,221207,148.9129,-37.4507
+VIC,Goulburn,Murrindindi River at Murrindindi Above Colwells,Forested,105.8,405205,145.564,-37.4137
+VIC,Yarra River,Walshes Creek at RD1,Forested,54.5,229661A,145.9268,-37.6337
+VIC,Yarra River,Aldermans Creek at RD32,Forested,23.9,229650A,145.9453,-37.724
+VIC,Mitchell-Thomson Rivers,South Cascade Creek at Thomson Valley Road,Forested,9.6,225020A,146.3547,-37.8333
+VIC,Mitchell-Thomson Rivers,Jordan River at D/S Johnsons Creek,Forested,132.1,225110A,146.3185,-37.6838
+VIC,Mitchell-Thomson Rivers,Latrobe River at Near Noojee,Forested,65.3,226222,145.893,-37.8822
+VIC,South Gippsland,Tarra River at Fischers,Forested - next to plantation,20.7,227225A,146.5551,-38.4695
+VIC,Werribee River,Lerderberg River at Sardine Creek O'brien,Forested,152.1,231213,144.361,-37.4964
+VIC,Otway Coast,Arkins Creek West Branch at Wyelangta,Forested,4.5,235205,143.444,-38.6456
+VIC,Glenelg River,Jimmy Creek at Jimmy Creek,Forested,23.3,238208,142.5071,-37.3744
+NT,Wildman River ,West Alligator River at Upstream Arnhem Highway,Forested,245.8,G8190001,132.1749,-12.7921
+WA,Franklin-Deep Rivers,Weld River at Wattle Block,Forested,73.1,606002,116.52,-34.69
+WA,Donally River,Carey Brook at Staircase Road,Forested,48.3,608002,115.84,-34.39
+WA,Brusselton Coast,Margaret River North at Whicher Range,Forested,14.1,610008,115.4436,-33.8066
+WA,Murray River (WA),Harvey River at Dingo Road,Forested - next to vineyards,148,613002,116.0389,-33.0871
+WA,Murray River (WA),Yarragil Brook at Yarragil Formation,Forested - next to gold mine,80,614044,116.1551,-32.8114
+NSW,Tuross River,Tuross River at Tuross Vale,Mixed?,90.6,218001,149.5103,-36.2646
+NSW,Manning River,Barnard River at Barry,Mixed,152.1,208009,151.3154,-31.5795
+NSW,Gwydir river,Copes Creek at Kimberley,Mixed? Mining?,249.3,418005,151.1148,-29.9164
+QLD,Barwon-Condamine-Culgoa Rivers,Spring Creek at Killarney,Mixed,31.6,422321B,152.3321,-28.3546
+QLD,Barwon-Condamine-Culgoa Rivers,Swan Creek at Swanfels,Mixed,82.6,422306A,152.2835,-28.1647
+QLD,Logan-Albert Rivers,Burnett Creek at Up Stream Maroon Dam,Mixed?,82.4,145018A,152.6085,-28.2196
+QLD,Logan-Albert Rivers,Teviot Brook at Croftby,Mixed,85.1,145011A,152.5701,-28.148
+QLD,Logan-Albert Rivers,Running Creek at 5.8km Deickmann's Bridge,Mixed,129,145010A,152.8906,-28.2452
+QLD,Logan-Albert Rivers,Albert River at Numeah Number 2,Mixed - mostly agricultural,165.9,145101D,153.0446,-28.0542
+QLD,Mary River,Kandanga Creek at Hygait,Mixed - mostly agricultural,171.3,138113A,152.6447,-26.3899
+QLD,Mary River,Tinana Creek at Tagigan Rd,Mixed,101.8,138009A,152.7838,-26.0773
+QLD,Plane Creek,Carmila Creek at Carmila,Mixed,86.3,126003A,149.3986,-21.9157
+QLD,Proserpine Rover,Gregory River at Lower Gregory,Mixed,45.6,122004A,148.5484,-20.3004
+QLD,Herbert River,Blunder Creek at Wooroora,Mixed - mostly forested,127.4,116015A,145.4363,-17.7371
+QLD,Herbert River,Millstream River at Ravenshoe,Mixed - town,90.1,116011A,145.477,-17.6046
+QLD,Johnstone River,Fisher Creek at Nerada,Mixed,16.2,112002A,145.9062,-17.5653
+QLD,Johnstone River,Liverpool Creek at Upper Japoonvale,Mixed,77.8,112102A,145.9057,-17.7147
+TAS,Kingston Coast,Snug Rivulet at U/S Snug Tiers Rd Bridge,Mixed? Mostly forested,18.3,305202,147.2367,-43.0733
+VIC,Kiewa River,Running Creek at Running Creek,Mixed? Mostly agricultural,128.1,402206,147.0442,-36.5393
+VIC,Ovens River,Rose River at Matong North,Mixed - mostly agricultural,180.3,403217,146.5815,-36.822
+VIC,Ovens River,Fifteen Mile Creek at Greta South,Mixed,230.9,403213A,146.244,-36.6185
+VIC,Ovens River,Reedy Creek at Woolshed,Mixed - mostly agricultural,205.5,403221,146.6011,-36.3107
+VIC,Goulburn,Brankeet Creek at Ancona,Mixed,121.8,405251,145.7855,-36.9688
+VIC,Yarra River,Saltwatercreek at Bullengarook,Mixed,38.7,230210,144.5243,-37.4718
+VIC,Mitchell-Thomson Rivers,Loch River,Mostly Forested,101.8,226220,146.0083,-37.8667
+VIC,Mitchell-Thomson Rivers,Morwell River at Boolarra,Mixed,115.9,226407,146.3054,-38.407
+VIC,Campaspe River,Campaspe River at Ashborne,Mixed,37.6,406208,144.4517,-37.39
+VIC,Loddon River,Joyces Creek at Strathlea,Mixed,156,407230,143.9583,-37.1667
+VIC,Avoca River,Avoca River at Amphitheatre,"Mixed - mostly agricultural, town, mine",82.6,408202,143.4056,-37.182
+NT,Finniss River,Elizabether River at Sturt Highway,Mixed?,95.6,G8150018,131.078,-12.605
+WA,Warren River,Dombakup Brook at Malimup Track,Mixed?,115.7,607155,115.9723,-34.5787
+WA,Murray River (WA),Clarke Brook at Hillview Farm,Mixed,18.7,613146,115.92,-33
