@@ -16,6 +16,7 @@ Store <- list()
 stations <- read.csv("C:\\Users\\cdac8824\\Documents\\honours\\allstations.csv")# should be in decimal degrees and long first and then lat
 points <- stations
 
+# Willem's method
 # library(doSNOW)
 # cl <- makeCluster(4) #Running 4 parallel processes at a time
 # registerDoSNOW(cl)
@@ -43,7 +44,7 @@ points <- stations
 # }
 # stopCluster(cl)
 
-#Better way (Jose's way)
+#Alternate method
 library(doSNOW)
 cl <- makeCluster(4) #Running 4 parallel processes at a time
 registerDoSNOW(cl)
@@ -68,8 +69,14 @@ Store<- foreach(i=8:12, #folders with decades required
     if ( class(df) == 'try-error') return(NULL) else df #to find failures if any
   })
   yearlist
-}
+                   }
 
+#Check if any df return NULL
+lapply(Store,function(x) {
+  sapply(x, function(y) {
+    is.null(y)
+  })
+})
 output1 <- list() #makes empty list
 
 #Store is a list of lists of dataframes
@@ -94,4 +101,4 @@ output.z <- zoo(output2,order.by=seq.Date(first_day,length=nrow(output2),by="day
 
 # save as an Rdata file`
 # save(output.z,file="h:/willem/teaching/afnr5512/pracs/8. WRSI practical/GriddedRainfallData.Rdata")
-#saveRDS(output.z, 'griddedrainfall.Rds')
+saveRDS(output.z, 'griddedrainfall.Rds')
