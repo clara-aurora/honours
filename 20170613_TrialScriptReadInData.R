@@ -1,4 +1,4 @@
-setwd("C:\\Users\\cdac8824\\honours")
+setwd("C:\\Users\\Clara\\Documents\\honours")
 
 require(zoo)
 
@@ -25,21 +25,21 @@ for (i in 1:length(Station_id)) {
   St_Rain[[i]]<- window(zoo(data[,6],order.by=as.Date(Dates)), start = as.Date("1970-01-01"), end = as.Date("2010-12-31"))  # use window() to cut the right time frame
 }
 
-# combine station rainDir1
-
-MaxT[[1]]
-
-test <- do.call(rbind, MaxT)
-names(test) <- Station_id
-
-sapply(MaxT, length)
-
-test<-do.call(merge, MaxT)
 saveRDS(MaxT, 'MaxT.Rds')
 
-tail(MaxT[[1]])
+# combine MaxT for all stations
 
-for(i in 1:length(St_Rain)) z <- merge(z, get(St_Rain[[i]]))
-names(z) <- unlist()
+MaxT<-readRDS('MaxT.Rds')
 
+#checking empty columns
+t<-sapply(MaxT, function(x) {
+  t <- table(is.na(x))
+  num_t <- t['TRUE']
+  ifelse(num_t, num_t/sum(t), 0)
+})
+table(t==1)
 
+test<-do.call(merge, MaxT) #give me "Large zoo" not dataframe
+
+names(test) <- Station_id[!is.na(t)]
+test2<-as.data.frame(test)
