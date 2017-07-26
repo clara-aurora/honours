@@ -42,7 +42,7 @@ table(t==1)
 
 test<-do.call(merge, MaxT)
 
-names(test) <- Station_id[!is.na(t)]
+names(test) <- Station_id[sapply(MaxT, length) > 0]
 test2<-as.data.frame(test)
 
 # combine St_Rain for all stations
@@ -51,11 +51,10 @@ s<-sapply(St_Rain, function(x) {
   num_s <- s['TRUE']
   ifelse(num_s, num_s/sum(s), 0)
 })
-table(s==1)
+table(s==1) #check for lists that are NAs only
+
 
 test3<-do.call(merge, St_Rain) 
+names(test3) <- Station_id[sapply(St_Rain, length) > 0]
 
-names(test3) <- Station_id[!is.na(s)]
-#Error in `colnames<-`(`*tmp*`, value = c(72000L, 72089L, 61415L, 60140L,  : 
-#length of 'dimnames' [2] not equal to array extent
 test4<-as.data.frame(test3)
