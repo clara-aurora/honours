@@ -1,19 +1,19 @@
-wd <- "C:\\Users\\Clara\\Google Drive\\Honours"
+#wd <- "C:\\Users\\Clara\\Google Drive\\Honours"
 
 
-setwd(wd)
+#setwd(wd)
 
 dir.create(paste0("Rivers"), showWarnings = T)
 
 library(RCurl)
 
-Data <- read.csv("selected-HRS-info.csv")
-Data<-Data[-36,]
-Data<-Data[-55,]
+Data <- read.csv("selected_hrs_new.csv")
+#Data<-Data[-36,]
+#Data<-Data[-55,]
 Data <-data.frame(Data)
 head(Data)
 Data$ID <- as.character(Data$ID)
-Data$Station <- as.character(Data$Station)
+#Data$Station <- as.character(Data$Station)
 
 #factor(Data$ID)
 
