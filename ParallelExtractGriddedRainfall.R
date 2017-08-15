@@ -4,7 +4,7 @@ library(zoo)
 library(raster)
 library(rgdal)
 
-setwd("Z:\\Public\\BOM_GriddedRainfallData\\")
+setwd("R:\\GRP-HGIS\\Public\\BOM_GriddedRainfallData")
 
 # read in the list of decades
 decades <- dir("Daily-rainfall", pattern="rainfall_")
@@ -13,7 +13,7 @@ decades <- dir("Daily-rainfall", pattern="rainfall_")
 Store <- list()
 
 # Some test stations
-stations <- read.csv("C:\\Users\\cdac8824\\Documents\\honours\\allstations.csv")# should be in decimal degrees and long first and then lat
+stations <- read.csv("C:\\Users\\fvanogtrop.MCS\\Documents\\honours\\selected_hrs_new.csv")# should be in decimal degrees and long first and then lat
 points <- stations
 
 # Willem's method
@@ -101,4 +101,4 @@ output.z <- zoo(output2,order.by=seq.Date(first_day,length=nrow(output2),by="day
 
 # save as an Rdata file`
 # save(output.z,file="h:/willem/teaching/afnr5512/pracs/8. WRSI practical/GriddedRainfallData.Rdata")
-saveRDS(output.z, 'griddedrainfall.Rds')
+saveRDS(output.z, file='C:/Users/fvanogtrop.MCS/Documents/honours/griddedrainfall.Rds')
