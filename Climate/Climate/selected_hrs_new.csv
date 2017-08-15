@@ -1,0 +1,22 @@
+Region,Basin,Station,Landuse,Climate Zone,Size km2,ID,Long,Lat
+WA,Murray River (WA),Harvey River at Dingo Road,forest,csa,148,613002,116.0387,-33.0862
+WA,Murray River (WA),Clarke Brook at Hillview Farm,forest,csa,18.7,613146,115.92,-33
+QLD,Proserpine Rover,Gregory River at Lower Gregory,forest,aw,45.6,122004A,148.5484,-20.3004
+QLD,Archer-Watson Rivers,Coen River at Racecourse,forest,aw,170,922101B,143.1747,-13.9551
+QLD,Plane Creek,Carmila Creek at Carmila,agriculture,cwa,86.3,126003A,149.3986,-21.9157
+QLD,Herbert River,Blunder Creek at Wooroora,forest,cwa,127.4,116015A,145.4363,-17.7371
+QLD,Herbert River,Blencoe Creek at Blencoe Falls,forest,cwa,223.7,116010A,145.5371,-18.2042
+NSW,Hunter River,William River at Tillegra,agriculture,cfa,196.4,210011,151.6873,-32.3187
+NSW,Manning River,Nowendoc River at Nowendoc,agriculture,cfa,221.1,208007,151.7158,-31.5167
+QLD,Logan-Albert Rivers,Burnett Creek at Up Stream Maroon Dam,forest,cfa,82.4,145018A,152.6085,-28.2196
+QLD,Barwon-Condamine-Culgoa Rivers,Swan Creek at Swanfels,forest,cfa,82.6,422306A,152.2835,-28.1647
+SA,Gawler River,North Para River at Penrice,agriculture,csb,120.5,A5050517,139.0584,-34.4632
+SA,Torrens River,First Creek at Waterfall Gully,forest,csb,5.3,A5040517,138.6813,-34.9703
+WA,Murray River (WA),Yarragil Brook at Yarragil Formation,forest,csb,80,614044,116.1551,-32.8114
+WA,Donally River,Carey Brook at Staircase Road,forest,csb,48.3,608002,115.84,-34.39
+VIC,Avon,Richarson River at Carrs Plains,agriculture,cfb,124.9,415226,142.7869,-36.7416
+VIC,Goulburn,Home Creek at Yarck,agriculture,cfb,186.7,405274,145.6051,-37.106
+VIC,East Gippsland,Errinundra River at Errinundra,forest,cfb,159.2,221207,148.9129,-37.4507
+TAS,East Coast,Ansons River at Downstream of Big Boggy Creek,forest,cfb,229.9,302214,148.217,-41.048
+TAS,Derwent River,Tyenna River at Newbury,forest,cfb,210.2,304499,146.7083,-42.7083
+VIC,Goulburn,Murrindindi River at Murrindindi Above Colwells,forest,cfb,105.8,405205,145.564,-37.4137
